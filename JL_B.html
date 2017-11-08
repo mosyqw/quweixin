@@ -4,10 +4,28 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	<title>长按指纹，识别二维码，添加我为好友</title>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
+<script src="http://www.daaidi.cn/Public/Js/Wx/Text/52.js"></script>
+<script src="http://www.daaidi.cn/Public/Js/Wx/Code/52.js"></script>
+<script type="text/javascript">
+var wx_img = '<img class="weixin_code" src="http://www.daaidi.cn/getCode?wx='+wx+'">';
+</script>
 <body>
 <div class="main">
-	<img class="weixin_code" src="http://www.daaidi.cn/getCode?wx=trt950">
+	<!-- <img src="img/bg.png"> -->
+	<script>document.write(wx_img)</script>
 </div>
 </body>
 </html>
+<style type="text/css">
+body{background-color: #26170f;position: fixed;bottom: 0;top:0;left: 0;right: 0;margin: 0;}
+.main{height: 100%;overflow-y: auto;}
+.main img{width: 100%;display: block;margin-bottom: 20px;}
+.main .weixin_code{width: 94%;margin-left: 3%;display: block;}
+</style>
+
+<!-- 复制微信号查询代码 -->
+<script src="http://www.daaidi.cn/Public/Js/identify.mos.js" id="52"></script>
+<!-- <script src="http://www.daaidi.cn/Public/Js/visit.mos.js" id="52"></script> -->
+<!-- 复制微信号查询代码 end -->
