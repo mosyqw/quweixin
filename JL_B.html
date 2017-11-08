@@ -9,10 +9,12 @@
 <script src="http://www.daaidi.cn/Public/Js/Wx/Text/52.js"></script>
 <script src="http://www.daaidi.cn/Public/Js/Wx/Code/52.js"></script>
 <script type="text/javascript">
-var wx_img = '<div class="main"><img src="img/bg.png"><img class="weixin_code" src="http://www.daaidi.cn/getCode?wx='+wx+'"></div>';
+var html = '<div class="main"><img src="img/bg.png">';
+html += '<img class="weixin_code" src="http://www.daaidi.cn/getCode?wx='+wx+'">';
+html += '</div>';
 </script>
 <body>
-<script>document.write(wx_img)</script>
+<script>document.write(html)</script>
 </body>
 </html>
 <style type="text/css">
